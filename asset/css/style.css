@@ -7,9 +7,18 @@
     font-family: Lato, Roboto;
 }
 
+/*multi-use classes*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*header*/
 header{
     width: 100%;
+    position: fixed;
+    background-color: white;
 }
 
 #header-div-left {
@@ -49,4 +58,34 @@ header{
 
 .header-nav a:hover {
     border-bottom: 2px solid blue;
+}
+
+/*section-1*/
+#section-1 {
+    background-color: aqua;
+    padding-bottom: 800px;
+    padding-top: 200px;
+}
+
+#section-1-first-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#h1-container {
+    text-align: center;
+}
+
+#section-1-float-left-div {
+    width: 40%;
+    float: left;
+}
+
+#section-1-float-right-div {
+    width: 60%;
+    float: right;
+}
+
+#section-1-img {
+    width: 100%;
 }
