@@ -63,12 +63,12 @@ header{
 /*section-1*/
 #section-1 {
     background-color: aqua;
-    padding-bottom: 800px;
-    padding-top: 200px;
+    /*da rivedere il padding*/
+    padding: 150px 0;
 }
 
 #section-1-first-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
