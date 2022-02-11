@@ -8,15 +8,45 @@
 }
 
 /*header*/
-.logo {
-    vertical-align: middle;
+header{
+    width: 100%;
 }
 
-#header-nav-left {
+#header-div-left {
+    width: 49%;
     display: inline-block;
 }
 
-#header-nav-left a {
+.logo {
+    vertical-align: middle;
+    padding: 30px 0;
+}
+
+#header-div-left a {
+    margin-left: 30px;
+}
+
+.header-nav {
+    display: inline-block;
+}
+
+.header-nav a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+#header-div-right {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+#header-div-right a {
+    margin-right: 30px;
+}
+
+.header-nav a:hover {
+    border-bottom: 2px solid blue;
 }
