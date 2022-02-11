@@ -223,17 +223,25 @@ header{
     padding: 30px 30px 0 0;
 }
 
-/*section-4*/
-#section-4-float-left-div {
-    width: 50%;
-    float: left;
+/*SECTION 4*/
+#section-4 {
+    padding-top: 80px;
 }
-
-#section-4-img {
+/*left & right parts section 4*/
+#section-4-float-left-div, #section-4-float-right-div {
+    width: 50%;
+}
+/*left part section 4*/
+#section-4-float-left-div img {
     width: 100%;
 }
-
+/*right part section 4*/
 #section-4-float-right-div {
-    width: 50%;
-    float: right;
+    padding: 30px 0 0 30px;
 }
+
+#section-4-float-right-div * {
+    margin-bottom: 20px;
+}
+
+/*SECTION 5*/
