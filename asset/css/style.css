@@ -64,7 +64,8 @@ header{
 #section-1 {
     background-color: aqua;
     /*da rivedere il padding*/
-    padding: 150px 0;
+    padding-top: 150px;
+
 }
 
 #section-1-first-container {
@@ -77,13 +78,14 @@ header{
 }
 
 #section-1-float-left-div {
-    width: 40%;
+    width: 38%;
     float: left;
 }
 
 #section-1-float-right-div {
     width: 60%;
     float: right;
+    z-index: 1;
 }
 
 #section-1-img {
