@@ -163,3 +163,23 @@ header{
     float: right;
     text-align: right;
 }
+
+/*section-4*/
+#section-4 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#section-4-float-left-div {
+    width: 50%;
+    float: left;
+}
+
+#section-4-img {
+    width: 100%;
+}
+
+#section-4-float-right-div {
+    width: 50%;
+    float: right;
+}
