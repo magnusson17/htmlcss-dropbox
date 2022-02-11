@@ -135,3 +135,31 @@ header{
     color: blue;
     font-weight: bold;
 }
+
+/*section 3*/
+#section-3 {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#section-3-first-container {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#section-3-float-container {
+    width: 100%;
+}
+
+.section-3-float-div-left {
+    width: 70%;
+    float: left;
+}
+
+.section-3-float-div-right {
+    width: 30%;
+    float: right;
+    text-align: right;
+}
