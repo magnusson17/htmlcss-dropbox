@@ -22,17 +22,29 @@
 .btn-basic-style {
     border: none;
     padding: 10px 20px;
-    color: white;
-    background-color: blue;
     cursor: pointer;
 }
 
-.btn-hover-acqua {
+.btn-blue-bg-style {
+    color: white;
+    background-color: blue;
     transition:  0.5s;
 }
 
-.btn-hover-acqua:hover {
+.btn-white-bg-style {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    transition:  0.5s;
+}
+
+.btn-blue-bg-style:hover {
    background-color: rgb(25, 206, 219);
+}
+
+.btn-white-bg-style:hover {
+    background-color: silver;
 }
 
 .inline-block {
