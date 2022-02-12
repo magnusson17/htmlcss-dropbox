@@ -67,7 +67,7 @@ header{
     margin-right: 30px;
 }
 /*common parts header*/
-.header-navs {
+.header-navs, .header-navs ul, .header-navs li {
     display: inline-block;
 }
 
