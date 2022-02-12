@@ -66,6 +66,10 @@ header{
 #header-div-right a {
     margin-right: 30px;
 }
+/*drop menu header*/
+.a-drop-menu {
+    display: none;
+}
 /*common parts header*/
 .header-navs, .header-navs ul, .header-navs li {
     display: inline-block;
