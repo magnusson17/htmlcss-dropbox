@@ -307,3 +307,31 @@ header{
 }
 
 /*SECTION 5*/
+#section-5 {
+    padding-top: 80px;
+}
+
+#section-5-header-container {
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+ 
+.section-5-float-column {
+    width: 30%;
+}
+
+.section-5-center-column {
+    margin: 0 5%;
+}
+
+.section-5-img {
+    width: 100%;
+}
+
+.section-5-h3 {
+    margin: 20px 0;
+}
+
+#section-5-second-float-row {
+    margin-top: 80px;
+}
