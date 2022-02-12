@@ -27,6 +27,14 @@
     cursor: pointer;
 }
 
+.btn-hover-acqua {
+    transition:  0.5s;
+}
+
+.btn-hover-acqua:hover {
+   background-color: rgb(25, 206, 219);
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -112,14 +120,8 @@ header{
     background-color: rgb(25, 206, 219);
 }
 
-/* .li-drop-menu:hover .a-drop-menu {
-    color: black;
-} */
-/*common parts header*/
-/* .header-navs, .header-navs ul, .header-navs li {
-    display: inline-block;
-} */
 
+/*common parts header*/
 .a-effect-hover, .a-effect-drop {
     text-decoration: none;
     color: black;
