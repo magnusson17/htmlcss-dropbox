@@ -362,8 +362,9 @@ header{
 
 .style-section-6-float {
     width: 50%;
+    height: 200px;
     padding: 0px 30px;
-    
+    position: relative;
     background-color: red;
     border: 1px solid black;
 }
@@ -371,6 +372,10 @@ header{
 .style-section-6-float img {
     width: 100%;
     filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*voglio allineare .style-section-6-float rispetto a .section-6-float*/
