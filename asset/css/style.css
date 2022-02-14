@@ -63,6 +63,9 @@
 header{
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     background-color: white;
     padding: 0 20px;
 }
@@ -118,7 +121,6 @@ header{
 .a-drop-menu {
     color: white;
     text-decoration: none;
-    font-weight: bold;
     padding: 10px 10px 10px 0;
     display: inline-block;
     width: 100%;
