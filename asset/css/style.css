@@ -122,7 +122,7 @@ header{
 }
 .ul-drop-menu-container {
     position: absolute;
-    top: 40px;
+    top: 45px;
     width: 100%;
     display: none;
 }
@@ -152,7 +152,7 @@ header{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 30px 0;
+    padding: 34px 0;
 }
 .a-effect-hover:hover {
     border-bottom: 2px solid blue;
@@ -232,21 +232,15 @@ header{
     width: 20%;
 }
 .section-2-column-ul {
-    margin-left: 0.7em;
+    margin-left: 1em;
     padding-bottom: 200px;
 }
 /*ICONS IN CSS*/
-/* .section-2-column-ul li::marker {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  } */
 .section-2-column-ul li::marker {
-    /* content: "/f4fc";
-    font: var(--fa-font-solid); */
-    content: "\2713";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c  ";
     color: blue;
-    font-weight: bold;
 }
 /*fine icons css*/
 /*SECTION 3*/
