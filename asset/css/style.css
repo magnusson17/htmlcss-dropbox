@@ -70,6 +70,9 @@
 .margin-b-20 {
     margin-bottom: 20px;
 }
+.padding-t-80 {
+    padding-top: 80px;
+}
 .inline-block {
     display: inline-block;
 }
@@ -160,7 +163,8 @@ header{
 /*SECTION 1*/
 #section-1 {
     background-color: #B4D0E7;
-    padding-top: 150px;
+    margin-top: 35px;
+    padding-top: 115px;
 }
 #section-1-first-container {
     width: 85%;
@@ -182,6 +186,7 @@ header{
 }
 #section-1-i-tag {
     font-size: 3rem;
+    color: black;
 }
 /*float right section 1*/
 #section-1-float-right-div {
@@ -300,9 +305,6 @@ header{
     padding: 30px 30px 0 0;
 }
 /*SECTION 4*/
-#section-4 {
-    padding-top: 80px;
-}
 /*left & right parts section 4*/
 #section-4-float-left-div, #section-4-float-right-div {
     width: 50%;
@@ -319,9 +321,6 @@ header{
     margin-bottom: 20px;
 }
 /*SECTION 5*/
-#section-5 {
-    padding-top: 80px;
-}
 #section-5-header-container {
     padding-bottom: 50px;
 }
@@ -341,9 +340,6 @@ header{
     margin-top: 80px;
 }
 /*SECTION 6*/
-#section-6 {
-    padding-top: 80px;
-}
 .section-6-float {
     width: 30%;
 }
@@ -385,7 +381,6 @@ header{
 }
 /*SECTION 8*/
 #section-8 {
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 .section-8-div {
