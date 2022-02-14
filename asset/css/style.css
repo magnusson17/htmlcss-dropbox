@@ -241,7 +241,7 @@ header{
     margin: 20px 0;
 }
 
-#little-hr-div hr {
+.little-hr-div hr {
     width: 20%;
 }
 
@@ -384,4 +384,25 @@ header{
 #section-7 {
     padding: 100px 0;
     background-color: aquamarine;
+}
+
+/*SECTION 8*/
+#section-8 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-8-div {
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    padding: 20px 0;
+}
+
+.section-8-left-div {
+    width: 94%;
+}
+
+.section-8-right-div {
+    width: 5%;
+    text-align: center;
 }
