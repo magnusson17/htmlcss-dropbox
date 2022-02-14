@@ -24,13 +24,11 @@
     padding: 10px 20px;
     cursor: pointer;
 }
-
 .btn-blue-bg-style {
     color: white;
     background-color: blue;
     transition:  0.5s;
 }
-
 .btn-white-bg-style {
     color: black;
     background-color: white;
@@ -38,15 +36,39 @@
     font-weight: bold;
     transition:  0.5s;
 }
-
 .btn-blue-bg-style:hover {
    background-color: rgb(25, 206, 219);
 }
-
 .btn-white-bg-style:hover {
     background-color: silver;
 }
 /*end btn style*/
+/*bg-color*/
+.bg-light-green {
+    background-color: #A2D39B;
+}
+.bg-purple {
+    background-color: #61082B;
+}
+.bg-light-blue {
+    background-color: #0093CE;
+}
+.bg-red {
+    background-color: #FF1C1C;
+}
+.bg-magenta {
+    background-color: #D5001F;
+}
+.bg-acqua {
+    background-color: #B4D0E7;
+}
+.bg-blue {
+    background-color: #0D2481;
+}
+.bg-yellow {
+    background-color: #FFD830;
+}
+/*end bg-color*/
 .margin-b-20 {
     margin-bottom: 20px;
 }
@@ -157,7 +179,7 @@ header{
 
 /*SECTION 1*/
 #section-1 {
-    background-color: silver;
+    background-color: #B4D0E7;
     padding-top: 150px;
 }
 
@@ -357,21 +379,18 @@ header{
 
 .section-6-float {
     width: 30%;
-    border: 1px solid black;
 }
 
 .style-section-6-float {
     width: 50%;
     height: 200px;
-    padding: 0px 30px;
     position: relative;
-    background-color: red;
-    border: 1px solid black;
 }
 
 .style-section-6-float img {
     width: 100%;
     filter: invert(100%);
+    padding: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -381,14 +400,28 @@ header{
 /*voglio allineare .style-section-6-float rispetto a .section-6-float*/
 
 #section-6-center-part {
-    width: 40%;
-    border: 1px solid black;
+    width: fit-content;
+    max-width: 40%;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #F5F5F5;
+    padding: 30px;
 }
 
+#section-6-center-part img {
+    width: 30%;
+}
+
+.little-hr-section-6-center-part {
+    width: 30%;
+    margin: 30px 0;;
+}
 /*SECTION 7*/
 #section-7 {
     padding: 100px 0;
-    background-color: aquamarine;
+}
+#section-7-float-div-left {
+    color: #61082B;
 }
 
 /*SECTION 8*/
