@@ -16,6 +16,9 @@
     width: 70%;
     margin: 0 auto;
 }
+.width-100-100 {
+    width: 100%;
+}
 .width-50-100 {
     width: 50%;
 }
@@ -24,6 +27,12 @@
 }
 .padding-t-80 {
     padding-top: 80px;
+}
+.text-align-c {
+    text-align: center;
+}
+.text-align-r {
+    text-align: right;
 }
 .inline-block {
     display: inline-block;
@@ -90,7 +99,6 @@
 /*end bg-color*/
 /*HEADER*/
 header{
-    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -114,10 +122,6 @@ header{
     margin-left: 30px;
 }
 /*part righ headert*/
-#header-div-right {
-    display: inline-block;
-    text-align: right;
-}
 #header-div-right a {
     margin-right: 30px;
 }
@@ -128,7 +132,6 @@ header{
 .ul-drop-menu-container {
     position: absolute;
     top: 45px;
-    width: 100%;
     display: none;
 }
 .li-drop-menu {
@@ -144,7 +147,6 @@ header{
     text-decoration: none;
     padding: 10px 10px 10px 0;
     display: inline-block;
-    width: 100%;
 }
 .li-drop-menu-first-container:hover .ul-drop-menu-container {
     display: block;
@@ -175,7 +177,6 @@ header{
     bottom: -80px;
 }
 #section-1-h1-container {
-    text-align: center;
     font-size: 3rem;
     padding-bottom: 50px;
 }
@@ -193,9 +194,6 @@ header{
 /*float right section 1*/
 #section-1-float-right-div {
     width: 60%;
-}
-#section-1-float-right-div img {
-    width: 100%;
 }
 /*SECTION 2*/
 #section-2 {
@@ -220,17 +218,12 @@ header{
     margin: 0 5%;
 }
 .section-2-column-header {
-    width: 100%;
-    text-align: center;
     border-bottom: 1px solid silver;
     padding: 10px 0;
 }
 .section-2-column-main {
     width: 80%;
     margin: 0 auto;
-}
-.section-2-column-main button {
-    width: 100%;
 }
 .section-2-column-main h3 {
     margin: 20px 0;
@@ -284,15 +277,10 @@ header{
     border: 1px solid silver;
 }
 #section-3-first-container {
-    width: 100%;
-    text-align: center;
     border-bottom: 1px solid silver;
 }
 #section-3-header {
     padding: 10px 0;
-}
-#section-3-float-container {
-    width: 100%;
 }
 #section-3-float-div-left {
     width: 70%;
@@ -303,14 +291,10 @@ header{
 }
 #section-3-float-div-right {
     width: 30%;
-    text-align: right;
     padding: 30px 30px 0 0;
 }
 /*SECTION 4*/
 /*left part section 4*/
-#section-4-float-left-div img {
-    width: 100%;
-}
 /*right part section 4*/
 #section-4-float-right-div {
     padding: 30px 0 0 30px;
@@ -327,9 +311,6 @@ header{
 }
 .section-5-center-column {
     margin: 0 5%;
-}
-.section-5-img {
-    width: 100%;
 }
 .section-5-h3 {
     margin: 20px 0;
@@ -391,7 +372,6 @@ header{
 }
 .section-8-right-div {
     width: 5%;
-    text-align: center;
     cursor: pointer;
 }
 .section-8-div-dropdown {
