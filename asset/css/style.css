@@ -366,24 +366,29 @@ header{
 #section-8 {
     padding-bottom: 80px;
 }
-.section-8-div {
+.section-8-section-container {
     border-bottom: 1px solid silver;
     border-top: 1px solid silver;
     padding: 20px 0;
 }
 .section-8-left-div {
     width: 94%;
+    background-color: red;
 }
 .section-8-right-div {
     width: 5%;
     cursor: pointer;
+    background-color: #0D2481;
 }
-.section-8-div-dropdown {
+.section-8-dropdown-div {
     display: none;
 }
-.section-8-right-div:hover .section-8-div-dropdown {
+.section-8-right-div:hover .section-8-dropdown-div {
     display: block;
 }
+/* .section-8-right-div:hover {
+    color: white;
+} */
 /*FOOTER*/
 footer {
     padding: 100px;
