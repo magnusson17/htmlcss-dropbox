@@ -156,6 +156,8 @@ header{
 #section-1-first-container {
     width: 85%;
     margin: 0 auto;
+    position: relative;
+    bottom: -80px;
 }
 
 #section-1-h1-container {
@@ -178,7 +180,6 @@ header{
 /*float right section 1*/
 #section-1-float-right-div {
     width: 60%;
-    margin-bottom: -80px;
 }
 
 #section-1-float-right-div img {
