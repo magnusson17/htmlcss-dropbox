@@ -406,3 +406,27 @@ header{
     width: 5%;
     text-align: center;
 }
+
+/*FOOTER*/
+footer {
+    padding: 80px;
+    background-color: black;
+    color: white;
+}
+
+.footer-div {
+    margin-right: 5%;
+}
+
+.footer-div li {
+    list-style: none;
+}
+
+#footer-second-container {
+    color: silver;
+}
+
+.little-hr-footer {
+    margin: 50px 0;
+    width: 10%;
+}
