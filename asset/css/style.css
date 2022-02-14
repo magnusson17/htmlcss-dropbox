@@ -235,7 +235,35 @@ header{
     margin-left: 1em;
     padding-bottom: 200px;
 }
+.section-2-column-first-ul {
+    margin-left: 1em;
+}
 /*ICONS IN CSS*/
+.i-user::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f007  ";
+}
+.i-folder::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f07b  ";
+}
+.i-pen::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f304  ";
+}
+.i-smile::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f118  ";
+}
+.i-user-plus::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+}
 .section-2-column-ul li::marker {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
