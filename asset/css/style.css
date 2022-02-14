@@ -245,12 +245,21 @@ header{
     margin-left: 0.7em;
     padding-bottom: 200px;
 }
+/*ICONS IN CSS*/
+.section-2-column-ul li::marker {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
 
 .section-2-column-ul li::marker {
-    content: "\2713";
+    content: "/f4fc";
+    font: var(--fa-font-solid);
+    /* content: "\2713"; */
     color: blue;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
+/*fine icons css*/
 
 /*SECTION 3*/
 #section-3 {
