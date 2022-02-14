@@ -379,3 +379,9 @@ header{
     width: 40%;
     border: 1px solid black;
 }
+
+/*SECTION 7*/
+#section-7 {
+    padding: 100px 0;
+    background-color: aquamarine;
+}
