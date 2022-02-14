@@ -109,7 +109,6 @@ header{
 /*part left header*/
 #header-div-left {
     width: 49%;
-    display: inline-block;
 }
 #logo-header {
     vertical-align: middle;
@@ -146,7 +145,6 @@ header{
     color: white;
     text-decoration: none;
     padding: 10px 10px 10px 0;
-    display: inline-block;
 }
 .li-drop-menu-first-container:hover .ul-drop-menu-container {
     display: block;
@@ -238,7 +236,7 @@ header{
 .section-2-column-first-ul {
     margin-left: 1em;
 }
-/*ICONS IN CSS*/
+/*ICONS IN CSS (ricorda di mettere sempre: font-family font-weight e content)*/
 .i-user::marker {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
