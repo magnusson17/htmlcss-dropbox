@@ -12,6 +12,9 @@
     display: table;
     clear: both;
 }
+.color-blue {
+    color: #0D2481;
+}
 .width-70-100-marg-auto {
     width: 70%;
     margin: 0 auto;
@@ -24,6 +27,9 @@
 }
 .margin-b-20 {
     margin-bottom: 20px;
+}
+.margin-b-40 {
+    margin-bottom: 40px;
 }
 .padding-t-80 {
     padding-top: 80px;
@@ -351,7 +357,7 @@ header{
 }
 /*SECTION 7*/
 #section-7 {
-    padding: 100px 0;
+    padding: 120px 0;
 }
 #section-7-float-div-left {
     color: #61082B;
@@ -380,7 +386,7 @@ header{
 }
 /*FOOTER*/
 footer {
-    padding: 80px;
+    padding: 100px;
     background-color: black;
     color: white;
 }
