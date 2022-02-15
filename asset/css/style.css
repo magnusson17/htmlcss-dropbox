@@ -34,6 +34,9 @@
 .padding-t-80 {
     padding-top: 80px;
 }
+.border-b-1p-s-silver {
+    border-bottom: 1px solid silver;
+}
 .text-align-c {
     text-align: center;
 }
@@ -111,7 +114,6 @@ header{
     z-index: 100;
     background-color: white;
     padding: 0 20px;
-    border-bottom: 1px solid silver;
     min-width: 1080px;
 }
 /*part left header*/
@@ -224,7 +226,6 @@ header{
     margin: 0 5%;
 }
 .section-2-column-header {
-    border-bottom: 1px solid silver;
     padding: 10px 0;
 }
 .section-2-column-main {
@@ -281,9 +282,6 @@ header{
 #section-3 {
     margin-top: 80px;
     border: 1px solid silver;
-}
-#section-3-first-container {
-    border-bottom: 1px solid silver;
 }
 #section-3-header {
     padding: 10px 0;
@@ -373,7 +371,6 @@ header{
     padding-bottom: 80px;
 }
 .section-8-section-container {
-    border-bottom: 1px solid silver;
     border-top: 1px solid silver;
     padding: 20px 0;
     cursor: pointer;
