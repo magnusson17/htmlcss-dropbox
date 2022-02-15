@@ -376,25 +376,30 @@ header{
     border-bottom: 1px solid silver;
     border-top: 1px solid silver;
     padding: 20px 0;
-}
-.section-8-left-div {
-    width: 94%;
-    background-color: red;
-}
-.section-8-right-div {
-    width: 5%;
     cursor: pointer;
-    background-color: #0D2481;
+    width: 100%;
 }
-.section-8-dropdown-div {
-    display: none;
+.section-8-h4 {
+    width: 94%;
 }
-.section-8-right-div:hover .section-8-dropdown-div {
-    display: block;
+.section-8-div-arrow::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
 }
-/* .section-8-right-div:hover {
-    color: white;
-} */
+.section-8-dropdown-p {
+    /* display: none; */
+    visibility: hidden;
+}
+.section-8-section-container:hover .section-8-div-arrow::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+}
+.section-8-section-container:hover .section-8-dropdown-p {
+    /* display: block; */
+    visibility: visible;
+}
 /*FOOTER*/
 footer {
     padding: 100px;
